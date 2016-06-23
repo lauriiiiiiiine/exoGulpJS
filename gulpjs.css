@@ -39,6 +39,9 @@ contenu
 */
 
 .contenu{
+    height: 100%;
+    min-height: 450px;
+    width: 100%;
     padding-top: 200px;
     padding-bottom: 200px;
 }
@@ -56,17 +59,147 @@ contenu
 }
 
 .contenu a{
-    background-color: white;
-    color: #333;
-    font-size: 22px;
-    text-decoration: none;
+    transition: all 0.4s;
+    color: inherit;
     padding: 15px 20px 16px;
+    vertical-align: top;
     cursor: pointer;
     border: 1px solid #fff;
     border-radius: 3px;
+    text-decoration: none;
+    animation: fadein 2s;
+    text-shadow: none;
+    color: #333;
+    background-color: #fff;
+    font-size: 22px;
+}
+
+.contenu a:hover{
+    box-shadow: 0 0 50px rgba(255,255,255,0.3);
 }
 
 /*
 footer
 */
 
+.footer{
+    width: auto;
+    max-width: 1024px;
+    float: none;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 70px;
+    background-color: #fff;
+}
+
+.infos{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    padding-bottom: 300px;
+    vertical-align: baseline;
+}
+
+.bloctexte{
+    float:left;
+    clear: none;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 3%;
+    width: auto;
+    max-width: 1024px;
+    float: none;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 50px;
+    margin: 100px 0 100px 0;
+}
+
+.bloc1{
+    float: left;
+    width: 48.5%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.bloc2{
+    float: right;
+    width: 48.5%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.bloc3{
+    float: left;
+    clear: none;
+    width: 48.5%;
+    margin-left: 0%;
+}
+
+.bloc4{
+    float: right;
+    clear: none;
+    text-align: inherit;
+    width: 48.5%;
+    margin-left: 0%;
+}
+
+/*
+Titre des blocs
+*/
+
+.bloc1 h3{
+    margin-bottom: 14px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.bloc2 h3{
+    margin-bottom: 14px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.bloc3 h3{
+    margin-bottom: 14px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.bloc4 h3{
+    margin-bottom: 14px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/*
+Texte des blocs
+*/
+
+.bloc1 p{
+    color: #7f8c8d;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.bloc2 p{
+    color: #7f8c8d;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.bloc3 p{
+    color: #7f8c8d;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.bloc4 p{
+    color: #7f8c8d;
+    font-size: 16px;
+    line-height: 26px;
+}
